@@ -108,7 +108,7 @@
                 <version>12.2.1-1-0</version>
                 <configuration>
                     <ojdeploy>
-                        ${oracleHome}/jdeveloper/jdev/bin/ojdeploy.exe
+                        C:\Oracle\Middleware\Oracle_Home\jdeveloper\jdev\bin\ojdeploy.exe
                     </ojdeploy>
                     <workspace>
                         ${basedir}/../SOATesteApplication.jws
