@@ -42,8 +42,8 @@
         <composite.revision>${project.version}</composite.revision>
         <composite.partition>default</composite.partition>
         <serverUrl>${oracleServerUrl}</serverUrl>
-        <user>${oracleUsername}</user>
-        <password>${oraclePassword}</password>
+        <user>weblogic</user>
+        <password>welcome1</password>
         <overwrite>true</overwrite>
         <forceDefault>true</forceDefault>
         <regenerateRulebase>false</regenerateRulebase>
@@ -70,11 +70,11 @@
             <plugin>
                 <groupId>com.oracle.soa.plugin</groupId>
                 <artifactId>oracle-soa-plugin</artifactId>
-                <version>12.2.1-0-0</version>
+                <version>12.2.1-1-0</version>
                 <configuration>
                     <compositeName>SOATesteProject</compositeName>
                     <composite>${scac.input}</composite>
-                    <sarLocation>${scac.output.dir}/sca_${project.artifactId}_rev${version}.jar</sarLocation>
+                    <sarLocation>${scac.output.dir}/sca_${project.artifactId}_rev${project.version}.jar</sarLocation>
                     <serverUrl>${serverUrl}</serverUrl>
                     <!-- note: compositeRevision is needed to package, revision is needed to undeploy -->
                     <compositeRevision>${composite.revision}</compositeRevision>
@@ -134,4 +134,23 @@
             </plugin>
         </plugins>
     </build>
+	<repositories>
+    <repository>
+      <id>maven.oracle.com</id>
+      <releases>
+        <enabled>true</enabled>
+      </releases>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+      <url>https://maven.oracle.com</url>
+      <layout>default</layout>
+    </repository>
+  </repositories>
+  <pluginRepositories>
+    <pluginRepository>
+      <id>maven.oracle.com</id>
+      <url>https://maven.oracle.com</url>
+    </pluginRepository>
+  </pluginRepositories>
 </project>

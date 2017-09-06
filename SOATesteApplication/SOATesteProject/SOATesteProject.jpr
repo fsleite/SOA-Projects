@@ -225,6 +225,9 @@
    </hash>
    <hash n="oracle.jdeveloper.model.PathsConfiguration">
       <hash n="javaContentSet">
+         <list n="pattern-filters">
+            <string v="+**"/>
+         </list>
          <list n="url-path">
             <url path="SOA/SCA-INF/src/"/>
          </list>
