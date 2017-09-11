@@ -17,7 +17,7 @@
       <plugin>
         <groupId>com.oracle.adf.plugin</groupId>
         <artifactId>ojdeploy</artifactId>
-        <version>12.2.1-1-0</version>
+        <version>12.2.1-0-0</version>
         <configuration>
           <ojdeploy>C:\Oracle\Middleware\Oracle_Home\jdeveloper\jdev\bin\ojdeploy</ojdeploy>
           <workspace>${basedir}/../OSBTesteProject.jws</workspace>
@@ -48,14 +48,14 @@
       </plugin>-->
     </plugins>
   </build>
-  <repositories>
+  <!--<repositories>
     <repository>
       <id>maven.oracle.com</id>
       <releases>
         <enabled>true</enabled>
       </releases>
       <snapshots>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
       </snapshots>
       <url>https://maven.oracle.com</url>
       <layout>default</layout>
@@ -66,5 +66,5 @@
       <id>maven.oracle.com</id>
       <url>https://maven.oracle.com</url>
     </pluginRepository>
-  </pluginRepositories>
+  </pluginRepositories>-->
 </project>

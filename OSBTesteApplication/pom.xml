@@ -14,19 +14,20 @@
       -->
   <modules>
     <module>OSBTesteProject</module>
-    <!--<module>System</module>-->
+    <module>System</module>
   </modules>
+  <!--
   <properties>
-    <!--
+
    These two properties are defined in com.oracle.maven:oracle-common, you can overwrite them here.
    Users who do not want to add plain text password in their properties or 
    pom file, should use the userConfigFile and userKeyFile options for deployment.
    <oracleUsername>USERNAME</oracleUsername>
    <oraclePassword>PASSWORD</oraclePassword>
    -->
-    <!-- Change the default values according to your environment -->
+    <!-- Change the default values according to your environment 
     <oracleServerUrl>t3://localhost:7001</oracleServerUrl>
     <oracleServerName>osb_server1</oracleServerName>
     <oracleHome>C:\Oracle\Middleware\Oracle_Home</oracleHome>
-  </properties>
+  </properties> -->
 </project>
