@@ -9,7 +9,7 @@
   </parent>
   <groupId>sbe-soa</groupId>
   <artifactId>OSBTesteProject</artifactId>
-  <version>1.0</version>
+  <version>1.0-SNAPSHOT</version>
   <packaging>sbar</packaging>
   <description></description>
   <build>
@@ -17,7 +17,7 @@
       <plugin>
         <groupId>com.oracle.adf.plugin</groupId>
         <artifactId>ojdeploy</artifactId>
-        <version>12.2.1-0-0</version>
+        <version>12.2.1-1-0</version>
         <configuration>
           <ojdeploy>C:\Oracle\Middleware\Oracle_Home\jdeveloper\jdev\bin\ojdeploy</ojdeploy>
           <workspace>${basedir}/../OSBTesteProject.jws</workspace>
@@ -34,21 +34,9 @@
           </execution>
         </executions>
       </plugin>
-      <!--<plugin>
-        <groupId>com.oracle.servicebus</groupId>
-        <artifactId>oracle-servicebus-plugin</artifactId>
-        <version>12.2.1-1-0</version>
-        <extensions>true</extensions>
-        <configuration>
-          <oracleHome>C:\Oracle\Middleware\Oracle_Home</oracleHome>
-          <oracleServerUrl>http://localhost:7001</oracleServerUrl>
-          <oracleUsername>weblogic</oracleUsername>
-          <oraclePassword>welcome1</oraclePassword>
-        </configuration>
-      </plugin>-->
     </plugins>
   </build>
-  <!--<repositories>
+  <!--repositories>
     <repository>
       <id>maven.oracle.com</id>
       <releases>
@@ -66,5 +54,5 @@
       <id>maven.oracle.com</id>
       <url>https://maven.oracle.com</url>
     </pluginRepository>
-  </pluginRepositories>-->
+  </pluginRepositories-->
 </project>
