@@ -17,7 +17,7 @@
       <plugin>
         <groupId>com.oracle.adf.plugin</groupId>
         <artifactId>ojdeploy</artifactId>
-        <version>12.2.1-1-0</version>
+        <version>12.2.1-0-0</version>
         <configuration>
           <ojdeploy>C:\Oracle\Middleware\Oracle_Home\jdeveloper\jdev\bin\ojdeploy</ojdeploy>
           <workspace>${basedir}/../OSBTesteProject.jws</workspace>
