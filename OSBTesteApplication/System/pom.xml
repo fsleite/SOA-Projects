@@ -4,12 +4,12 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>sbe-soa</groupId>
+    <groupId>sba-sbe</groupId>
     <artifactId>System</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <packaging>sbar</packaging>
-
+    <description>Oracle Service Bus - System Resources Archetype</description>
     <parent>
         <groupId>com.oracle.servicebus</groupId>
         <artifactId>sbar-system-common</artifactId>

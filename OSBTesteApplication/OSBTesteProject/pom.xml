@@ -7,9 +7,33 @@
     <artifactId>sbar-project-common</artifactId>
     <version>12.2.1-1-0</version>
   </parent>
-  <groupId>sbe-soa</groupId>
+  <groupId>sba-sbe</groupId>
   <artifactId>OSBTesteProject</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>sbar</packaging>
-  <description></description>
+  <description>Oracle Service Bus - Project Archetype</description>
+  <properties>
+    <oracleHome>C:\Oracle\Middleware\Oracle_Home</oracleHome>
+    <system>true</system>
+    <oracleServerUrl>t3://localhost:7001</oracleServerUrl>
+    <oracleUsername>weblogic</oracleUsername>
+    <oraclePassword>weblogic1</oraclePassword>
+  </properties>
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>com.oracle.servicebus.plugin</groupId>
+        <artifactId>oracle-servicebus-plugin</artifactId>
+        <version>12.2.1-1-0</version>
+        <extensions>true</extensions>
+        <configuration>
+          <oracleHome>C:\Oracle\Middleware\Oracle_Home</oracleHome>
+          <system>true</system>
+          <oracleServerUrl>t3://localhost:7001</oracleServerUrl>
+          <oracleUsername>weblogic</oracleUsername>
+          <oraclePassword>welcome1</oraclePassword>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
 </project>
