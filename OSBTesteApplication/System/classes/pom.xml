@@ -4,7 +4,7 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>sba-sbe</groupId>
+    <groupId>nl.whitehorses</groupId>
     <artifactId>System</artifactId>
     <version>1.0-SNAPSHOT</version>
 
