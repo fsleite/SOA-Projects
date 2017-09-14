@@ -5,7 +5,7 @@
   <parent>
     <groupId>com.oracle.servicebus</groupId>
     <artifactId>sbar-project-common</artifactId>
-    <version>12.2.1-0-0</version>
+    <version>12.2.1-1-0</version>
   </parent>
   <groupId>sba-sbe</groupId>
   <artifactId>OSBTesteProject</artifactId>
@@ -24,7 +24,7 @@
       <plugin>
         <groupId>com.oracle.servicebus.plugin</groupId>
         <artifactId>oracle-servicebus-plugin</artifactId>
-        <version>12.2.1-0-0</version>
+        <version>12.2.1-1-0</version>
         <extensions>true</extensions>
         <configuration>
           <oracleHome>C:\Oracle\Middleware\Oracle_Home</oracleHome>
