@@ -11,7 +11,7 @@
 
     <groupId>nl.whitehorses</groupId>
     <artifactId>System</artifactId>
-    <version>1.1</version>
+    <version>1.1-SNAPSHOT</version>
 
     <packaging>sbar</packaging>
 

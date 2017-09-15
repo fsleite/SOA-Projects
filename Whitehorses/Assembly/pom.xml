@@ -3,24 +3,24 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>nl.whitehorses</groupId>
 	<artifactId>Assembly</artifactId>
-	<version>1.1</version>
+	<version>1.1-SNAPSHOT</version>
 	<dependencies>
 		<dependency>
 			<groupId>nl.whitehorses</groupId>
 			<artifactId>Clockwise</artifactId>
-			<version>1.1</version>
+			<version>1.1-SNAPSHOT</version>
 			<type>sbar</type>
 		</dependency>
 		<dependency>
 			<groupId>nl.whitehorses</groupId>
 			<artifactId>Employee</artifactId>
-			<version>1.1</version>
+			<version>1.1-SNAPSHOT</version>
 			<type>sbar</type>
 		</dependency>
 		<dependency>
 			<groupId>nl.whitehorses</groupId>
 			<artifactId>Office</artifactId>
-			<version>1.1</version>
+			<version>1.1-SNAPSHOT</version>
 			<type>sbar</type>
 		</dependency>
 	</dependencies>
