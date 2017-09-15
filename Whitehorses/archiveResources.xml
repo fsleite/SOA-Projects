@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<!-- Optional parameter to specify which of the resources should be included into the archive -->
+	<includes>
+		<include>**/Business/*</include>
+		<include>**/Pipeline/*</include>
+	</includes>
+	<!-- Optional parameter to specify which of the resources should be excluded from the archive -->
+	<excludes>
+		<exclude>**/Pipeline/UpdateEmployee.pipeline</exclude>
+	</excludes>
+</resources>
