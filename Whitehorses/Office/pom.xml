@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>nl.whitehorses</groupId>
   <artifactId>Office</artifactId>
-  <version>1.0</version>
+  <version>1.1</version>
   <packaging>sbar</packaging>
   <build>
     <directory>${project.basedir}/.data/maven</directory>
@@ -18,7 +18,7 @@
       <plugin>
         <groupId>nl.whitehorses.servicebus</groupId>
         <artifactId>servicebus-plugin</artifactId>
-        <version>1.0</version>
+        <version>1.1</version>
         <extensions>true</extensions>
         <configuration>
           <!-- Configure the Oracle Home directory -->
