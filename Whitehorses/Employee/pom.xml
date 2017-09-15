@@ -21,13 +21,13 @@
 				<extensions>true</extensions>
 				<configuration>
 					<!-- Configure the Oracle Home directory -->
-					<oracleHome>C:\Oracle\Middleware1221\Oracle_Home</oracleHome>
+					<oracleHome>C:\Oracle\Middleware\Oracle_Home</oracleHome>
 					<!-- Specify whether this is a system release -->
 					<system>false</system>
 					<!-- Configure the export level of the release, possible values are PROJECT and RESOURCE -->
 					<exportLevel>RESOURCE</exportLevel>
 					<!-- Optional parameter to specify which of the resources should be included into and excluded from the archive -->
-					<resources>C:\JDeveloper\mywork\Whitehorses\archiveResources.xml</resources>
+					<resources>C:\work\soa-teste\SOA-Projects\Whitehorses\archiveResources.xml</resources>
 				</configuration>
 			</plugin>
 		</plugins>
